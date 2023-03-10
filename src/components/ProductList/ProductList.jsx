@@ -31,7 +31,7 @@ const ProductList = () => {
             totalPrice: getTotalPrice(addedItems),
             queryId,
         }
-        fetch('http://localhost:8080/web-data', {
+        fetch('https://testing-telegram-bot.herokuapp.com/web-data', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
